@@ -155,6 +155,9 @@ clean:
 	@echo --- making $@ ---
 	$(CC) -c $(strip $(CFLAGS)) $(strip $(GENDEPFLAGS)) $< -o $@ 
 
+flash: all
+	@teensyloader -v -mmcu=$(MCU) -w firmware.hex
+
 # -----------------------------------------------------------------------------
 
 -include $(OBJ:%=%.dep)
