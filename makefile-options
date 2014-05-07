@@ -9,7 +9,8 @@
 
 TARGET   := firmware  # the name we want for our program binary
 KEYBOARD := ergodox   # keyboard model; see "src/keyboard" for what's available
-LAYOUT   := default-kinesis-mod  # keyboard layout
+KBTYPE	 := qwerty
+LAYOUT   := ${KBTYPE}-kinesis-mod  # keyboard layout
 				# see "src/keyboard/*/layout" for what's
 				# available
 
