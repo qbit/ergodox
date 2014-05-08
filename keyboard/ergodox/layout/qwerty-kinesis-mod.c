@@ -30,7 +30,7 @@ _backslash,     _Q,         _W,      _E,      _R,    _T,    1,
       _ctrlL,     _A,         _S,      _D,      _F,    _G,
    _shiftL,     _Z,         _X,      _C,      _V,    _B,    1,
      _guiL, _grave, _backslash, _arrowL, _arrowR,
-                                                 _ctrlL, _altL,
+                                                 _tab, _altL,
                                               0,      0, _home,
                                             _bs,   _guiL,  _end,
 // right hand
