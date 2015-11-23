@@ -27,12 +27,12 @@ const uint8_t PROGMEM _kb_layout[KB_LAYERS][KB_ROWS][KB_COLUMNS] = {
 // left hand
     _equal,     _1,         _2,      _3,      _4,    _5, _esc,
 _backslash,     _Q,         _W,      _E,      _R,    _T,    1,
-      _ctrlL,     _A,         _S,      _D,      _F,    _G,
-   _shiftL,     _Z,         _X,      _C,      _V,    _B,    1,
-     _guiL, _grave, _backslash, _arrowL, _arrowR,
-                                                 _tab, _home,
-                                              0,      0, _end,
-                                            _bs,   _guiL,  _esc,
+_capsLock,     _A,         _S,      _D,      _F,    _G,
+_shiftL,     _Z,         _X,      _C,      _V,    _B,    1,
+_guiL, _grave, _backslash, _arrowL, _arrowR,
+_tab, _home,
+0,      0, _end,
+_bs,   _altL,  _esc,
 // right hand
         3, _6,      _7,      _8,      _9,         _0,     _dash,
 _bracketL, _Y,      _U,      _I,      _O,         _P, _bracketR,
