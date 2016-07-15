@@ -39,7 +39,7 @@ _bracketL, _Y,      _U,      _I,      _O,         _P, _bracketR,
            _H,      _J,      _K,      _L, _semicolon,    _quote,
         1, _N,      _M,  _comma, _period,     _slash,   _shiftR,
                _arrowL, _arrowD, _arrowU,    _arrowR,     _guiR,
- _altR, _insert,
+ _int1, _insert,
 _pageU,      0,      0,
 _pageD, _enter, _space ),
 
